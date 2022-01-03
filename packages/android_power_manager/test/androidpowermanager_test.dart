@@ -18,6 +18,6 @@ void main() {
   });
 
   test('getPlatformVersion', () async {
-    expect(await Androidpowermanager.platformVersion, '42');
+    expect(await AndroidPowerManager.platformVersion, '42');
   });
 }

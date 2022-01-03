@@ -1,3 +1,6 @@
+## 0.1.7
+
+Null-safety support
 ## 0.1.6
 
 * Change iOS platform using Objective-C

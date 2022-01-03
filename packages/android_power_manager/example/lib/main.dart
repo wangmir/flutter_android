@@ -57,7 +57,7 @@ class _MyAppState extends State<MyApp> {
         floatingActionButton: FloatingActionButton(
           onPressed: () async {
             bool success =
-            await AndroidPowerManager.requestIgnoreBatteryOptimizations();
+            await (AndroidPowerManager.requestIgnoreBatteryOptimizations() as FutureOr<bool>);
             if (success) {
               String isIgnoringBatteryOptimizations =
               await _checkBatteryOptimizations();
